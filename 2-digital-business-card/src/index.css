@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+  color: white;  
+}
+
+.main {
+  background-color: #1A1B21;
+  width: 320px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.info-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.info-container {
+  padding: 15px;
+}
+
+.info-title {  
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.info-subtitle {
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  margin: 3px;
+}
+
+.info-website {
+  font-weight: 400;
+  font-size: 10.24px;
+  text-align: center;
+  color: #F5F5F5;
+  margin: 8px;
+}
+
+.info-btns {
+  display: flex;
+  justify-content: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+}
+
+.info-btns-btn {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  width: 115px;
+  height: 34px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.info-btns-btn img {
+  width: 16px;
+}
+
+.btn1 {
+  border: 1px solid #D1D5DB;
+  background-color: #FFFFFF;
+  color: #374151;
+}
+
+.btn2 {
+  background-color: #5093E2;
+  border: none;
+  color: #ffffff;
+}
+
+.about, .interests {
+  margin-left: 34px;
+  margin-right: 34px;
+
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+.about h2, .interests h2 {
+  margin-bottom: -5px;
+} 
+
+
+.footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+  padding: 20px 0px;
+  margin-top: 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.footer-img {
+  width: 25px;
+}
